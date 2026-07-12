@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raihan Ainur Rochim — Biomedical Engineering Portfolio</title>
+<meta name="description" content="Biomedical engineering student working across embedded systems, machine learning, and mobile development.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="#top" class="logo">Raihan Ainur Rochim</a>
+    <input type="checkbox" id="nav-toggle">
+    <label class="burger" for="nav-toggle">menu</label>
+    <nav>
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#other">More</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" style="border-top:none;">
+    <div class="wrap">
+      <p class="hero-eyebrow">Biomedical Engineering</p>
+      <h1>From sensors to intelligent systems.</h1>
+      <p class="lede">
+        Hello, I'm Raihan.
+        I am a Biomedical Engineering graduate with a strong interest in Artificial Intelligence, biomedical signal processing, medical imaging, and smart medical devices. Throughout my academic journey, I have worked on projects ranging from EMG-based fatigue classification and AI-assisted stroke diagnosis to IoT-enabled healthcare devices and embedded systems. This portfolio showcases the projects, research, and experiences that reflect my passion for building technology that advances healthcare.
+      </p>
+      <div class="hero-links">
+        <a href="#work" class="btn btn-primary">See the work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+
+      <svg class="waveform" viewBox="0 0 900 100" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,50 L60,50 L75,20 L90,80 L105,50 L160,50 L175,15 L190,85 L205,50
+                 L260,50 L275,35 L290,65 L305,50 L360,50 L375,10 L390,90 L405,50
+                 L460,50 L475,42 L490,58 L505,50 L560,50 L575,25 L590,75 L605,50
+                 L660,50 L675,40 L690,60 L705,50 L760,50 L775,18 L790,82 L805,50 L900,50"/>
+      </svg>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Featured work</h2>
+        <span class="count">04 selected projects</span>
+      </div>
+
+      <div class="project">
+        <div class="project-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M3 12h4l2-7 4 14 2-7h6"/></svg>
+        </div>
+        <div>
+          <h3>Fused EMG–EIM Fatigue Classification via Reservoir Computing</h3>
+          <p class="role">Undergraduate thesis &middot; solo research</p>
+          <p class="desc">
+            A model that classifies calf muscle pump fatigue by fusing EMG and EIM biosignals
+            through an Echo State Network. Built around a stair-climbing fatigue protocol across
+            20 subjects, aimed at flagging occupational workers at risk of chronic venous
+            insufficiency before it becomes a clinical problem.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Reservoir Computing</span>
+            <span class="tag">Signal Processing</span>
+            <span class="tag">Nested Cross-Validation</span>
+            <span class="tag">Bayesian Optimization</span>
+          </div>
+          <div class="media">
+            <img src="Gambar/skripsi.webp" alt="deskripsi singkat gambar" loading="lazy" width="800" height="450">
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><circle cx="4" cy="10.5" r="2.3"/><path d="M2 4.5h9.5c.15 3.8 2.3 6.4 8.9 8-.6.3-1.4 1-1.8 2.2M21.6 12.5C22.2 13.2 22.5 14.2 22.5 15.5v2.5H2v-13.5"/><path d="M2 17h20.5"/><path d="M4 15.5h5M11 15.5h.7"/></svg>
+        </div>
+        <div>
+          <h3>G-Track: Smart Shoe for Gait Analysis &amp; Osteoarthritis Screening</h3>
+          <p class="role">Rancang bangun / hardware + firmware</p>
+          <p class="desc">
+            A wearable built on an ESP32 and MPU6050 IMU that analyzes gait patterns and streams
+            data to a web server in real time, with the goal of catching early signs of
+            osteoarthritis before symptoms become obvious.
+          </p>
+          <div class="tags">
+            <span class="tag">ESP32</span>
+            <span class="tag">MPU6050</span>
+            <span class="tag">Embedded C</span>
+            <span class="tag">Real-time Web Server</span>
+          </div>
+          <div class="media">
+            <img src="Gambar/g-track.webp" alt="deskripsi singkat gambar" loading="lazy" width="800" height="450">
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18M15 3v18M3 9h18M3 15h18"/></svg>
+        </div>
+        <div>
+          <h3>Brain Tumor Classification from MRI Scans</h3>
+          <p class="role">MSIB internship &middot; ML team member</p>
+          <p class="desc">
+            A four-class CNN classifier (normal, meningioma, no tumor, pituitary, glioma) built
+            during an MSIB internship. My part was the model itself; the wider project stitched
+            together ML, an Android front end, and cloud infrastructure into one working pipeline.
+          </p>
+          <div class="tags">
+            <span class="tag">CNN</span>
+            <span class="tag">Python</span>
+            <span class="tag">Cloud Computing</span>
+            <span class="tag">Cross-functional team</span>
+          </div>
+          <div class="media">
+            <img src="Gambar/msib.webp" alt="deskripsi singkat gambar" loading="lazy" width="800" height="450">
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><circle cx="5" cy="2" r="1"/><circle cx="13" cy="2" r="1"/><path d="M5 3v3a4 4 0 008 0V3"/><path d="M9 10v2c0 5.5 3.5 9 8 9h1"/><circle cx="19.5" cy="19.5" r="2.3"/><circle cx="19.5" cy="19.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+        </div>
+        <div>
+          <h3>Wireless Digital Stethoscope + Companion App</h3>
+          <p class="role">PKM-funded &middot; hardware + mobile</p>
+          <p class="desc">
+            A conventional stethoscope head paired with an ESP32, mic, and amplifier in a
+            3D-printed housing, feeding into an Android app where captured audio can be reviewed.
+            Firmware and app talk to each other through Firebase.
+          </p>
+          <div class="tags">
+            <span class="tag">ESP32</span>
+            <span class="tag">Android (Java)</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">3D Printing</span>
+          </div>
+          <div class="media">
+            <img src="Gambar/pkm.webp" alt="deskripsi singkat gambar" loading="lazy" width="800" height="450">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="other">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>More projects</h2>
+        <span class="count">scroll &rarr;</span>
+      </div>
+
+      <div class="scroller">
+        <div class="scroll-item">
+          <div class="media">
+            <img src="Gambar/wrist.webp" alt="deskripsi singkat gambar" loading="lazy" width="800" height="450">
+          </div>
+          <h4>Personalized Wrist Orthosis</h4>
+          <p>A 3D-printed wrist splint adapted from an open-source base file, resized per patient for a proper individual fit. PLA printed on demand.</p>
+          <div class="tags"><span class="tag">3D Printing</span><span class="tag">PLA</span></div>
+        </div>
+        <div class="scroll-item">
+          <div class="media">
+            <img src="Gambar/app.webp" alt="deskripsi singkat gambar" loading="lazy" width="800" height="450">
+          </div>
+          <h4>Medication Reminder App</h4>
+          <p>Android app with login, medication tracking, and profile management, built to help patients stay on schedule with their prescriptions.</p>
+          <div class="tags"><span class="tag">Android</span><span class="tag">Java</span></div>
+        </div>
+        <div class="scroll-item">
+          <div class="media">
+            <img src="Gambar/mri.webp" alt="deskripsi singkat gambar" loading="lazy" width="800" height="450">
+          </div>
+          <h4>Alzheimer's MRI Classification</h4>
+          <p>A CNN model for classifying Alzheimer's disease from brain MRI scans, built as a machine learning coursework project.</p>
+          <div class="tags"><span class="tag">CNN</span><span class="tag">Python</span></div>
+        </div>
+        <div class="scroll-item">
+          <div class="media">
+            <img src="Gambar/brangkas.webp" alt="deskripsi singkat gambar" loading="lazy" width="800" height="450">
+          </div>
+          <h4>MUX-Based Electronic Safe</h4>
+          <p>A digital logic project implementing an electronic safe security system using type-2 multiplexer circuits for access control.</p>
+          <div class="tags"><span class="tag">Digital Logic</span><span class="tag">MUX</span></div>
+        </div>
+        <div class="scroll-item">
+          <div class="media">
+            <img src="Gambar/gas.webp" alt="deskripsi singkat gambar" loading="lazy" width="800" height="450">
+          </div>
+          <h4>Gas Leak Detection System</h4>
+          <p>A gas detection system using an MQ metal-oxide (MOX) sensor to monitor hazardous gas concentrations.</p>
+          <div class="tags">
+            <span class="tag">MQ Sensor</span>
+            <span class="tag">LM339</span>
+            <span class="tag">LM7805</span>
+          </div>
+        </div>
+        <div class="scroll-item">
+          <div class="media">
+            <img src="Gambar/garden.webp" alt="deskripsi singkat gambar" loading="lazy" width="800" height="450">
+          </div>
+          <h4>Automatic Garden Light</h4>
+          <p>A simple LDR + relay circuit that switches garden lighting on and off based on ambient light.</p>
+          <div class="tags"><span class="tag">LDR</span><span class="tag">Relay</span></div>
+        </div>
+        <div class="scroll-item">
+        <div class="media">
+          <a href="https://umkmpilangrejo.netlify.app" target="_blank" rel="noopener noreferrer">
+            <img src="Gambar/web.webp"
+                alt="Promotional website for Pilangrejo Village MSMEs" loading="lazy" width="800" height="450">
+          </a>
+        </div>
+        <h4>Promotional Website</h4>
+        <p>Developed a promotional website for local MSMEs in Pilangrejo Village, Madiun, as part of a community service (KKN) program.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag"><a href="https://umkmpilangrejo.netlify.app">Netlify</a></span>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Embedded &amp; Hardware</h4>
+          <ul>
+            <li>ESP32 / microcontrollers</li>
+            <li>MPU6050 &amp; sensor integration</li>
+            <li>3D printing (PLA)</li>
+            <li>Prototype fabrication</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>ML &amp; Signal Processing</h4>
+          <ul>
+            <li>Python</li>
+            <li>CNN</li>
+            <li>Reservoir Computing / ESN</li>
+            <li>EMG / EIM biosignal processing</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Mobile Development</h4>
+          <ul>
+            <li>Java</li>
+            <li>Android Studio</li>
+            <li>Firebase</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Electronics &amp; Logic</h4>
+          <ul>
+            <li>Digital logic design</li>
+            <li>IC-based circuits</li>
+            <li>Basic circuit prototyping</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot-inner">
+      <div>
+        <h2>Let's talk.</h2>
+        <p>Open to full-time opportunities, research collaborations, and innovative healthcare technology projects.</p>
+      </div>
+      <div class="foot-links">
+        <a href="mailto:rehanainur46@email.com">Email</a>
+        <a href="https://linkedin.com/in/raihan-ainur-rochim-379a8b24b/">LinkedIn</a>
+        <a href="https://github.com/Odin990">GitHub</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
